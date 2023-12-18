@@ -5,6 +5,12 @@
 <p>Our web app offers an interactive platform for visitors to effortlessly view, sort, and explore startup data. Whether you're an investor, entrepreneur, or simply curious about emerging businesses, the Startup Directory provides a wealth of information about each company, including crucial details such as company name, city, funding amount, number of employees, industry, and founders.
 
 Invest wisely by leveraging the power of information with the Startup Directory Web App. Explore and discover the perfect stocks tailored to your preferences. Let the journey to informed investments begin!</p>
+ <h1>Preview UI</h1>
+ <img src="ui.png"></img>
+ <img src="ui3.png"></img>
+   <img src="ui2.png"></img>
+
+
 
  <h1>Usage Guidelines</h1>
 
@@ -81,4 +87,3 @@ Invest wisely by leveraging the power of information with the Startup Directory 
   </ul>
 
   <p>Enjoy exploring the Startup Directory Web App and making informed decisions for your investment journey!</p>
-  <img src="ui.png"></img>
