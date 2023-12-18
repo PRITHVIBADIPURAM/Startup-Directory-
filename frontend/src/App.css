@@ -1,0 +1,142 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #100e0ed8;
+  color: #fff;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
+}
+
+.navbar p {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifS;
+}
+.navbar__left{
+  margin-left: 23px;
+}
+.navbar__right {
+  display: flex;
+  align-items: center;
+
+  padding: 5px;
+}
+
+.filter-dropdown,
+input[type="text"] {
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 14px;
+}
+
+.filter-dropdown {
+  background: linear-gradient(45deg, #04619F, #000000);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.filter-dropdown:hover {
+  background-color:#04619F;
+}
+
+.filter-dropdown,
+input[type="text"] {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.app-container {
+  padding: 0px;
+  background-color:#aac3d3;
+}
+
+.filter-dropdown {
+  margin-bottom: 20px;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+
+.startup-cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 2.5%;
+}
+
+.startup-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 400px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(45deg, #04619F, #000000);
+  border-radius: 15px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.5s ease-in-out;
+}
+
+.startup-card:hover .card__header {
+  background: linear-gradient(45deg, #0D0A0B, #49a09d);
+  transform: perspective(1000px) rotateX(10deg);
+}
+
+.button {
+  background: linear-gradient(45deg, #0D0A0B, #49a09d);
+  border-radius: 14px;
+  font-family: monospace;
+  height: 5vh;
+  border: 2px solid #050408;
+  color: #fff;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #0D0A0B, #49a09d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  color: #04619F;
+}
+
+.startup-card:hover .card__overlay {
+  opacity: 1;
+  background: linear-gradient(45deg, #20A4F3, #182B3A);
+}
+
+.card__header-text {
+  max-width: 600px;
+}
+
+.card__overlay p {
+  margin: 5px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 6px;
+}
