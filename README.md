@@ -81,3 +81,4 @@ Invest wisely by leveraging the power of information with the Startup Directory 
   </ul>
 
   <p>Enjoy exploring the Startup Directory Web App and making informed decisions for your investment journey!</p>
+  <img src="ui.png"></img>
