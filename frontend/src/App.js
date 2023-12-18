@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import StartupCard from './components/StartupCard';
-import Navbar from './components/Navbar'; // Import the Navbar component
+import Navbar from './components/Navbar'; 
 
 const App = () => {
   const [startups, setStartups] = useState([]);
